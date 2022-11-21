@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji&display=swap');
 
 title {
     color: aliceblue;
@@ -11,6 +12,10 @@ p {
 .page {
     font-family: 'DM Sans', sans-serif;
     margin: 0;
+}
+
+.emoji-span {
+    font-family: 'Noto Emoji', sans-serif;
 }
 
 .profile-section {
@@ -89,9 +94,9 @@ p {
 }
 
 .content-side {
-    flex: 25%; /* Set the width of the sidebar */
-    background-color: #3E505B; /* Grey background color */
-    padding: 20px; /* Some padding */
+    flex: 25%;
+    background-color: #3E505B;
+    padding: 20px; 
 }
 
 .personal-info-card {
@@ -228,39 +233,25 @@ p {
     font-size: 18px;
 }
 
-/* Style the top navigation bar */
 .navbar {
-    overflow: hidden; /* Hide overflow */
+    overflow: hidden;
     width: 100vw;
     background-color: #3E505B;
 }
 
-/* Style the navigation bar links */
 .navbar a {
-    float: right; /* Make sure that the links stay side-by-side */
-    display: block; /* Change the display to block, for responsive reasons (see below) */
-    color: bisque; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
+    float: right; 
+    display: block; 
+    color: bisque; 
+    text-align: center; 
+    padding: 14px 20px; 
     margin: 0 10px;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; 
     
 }
 
-/* Change color on hover/mouse-over */
 .navbar a:hover {
-     /* Grey background color */
     color: white; 
     border-radius: 5px;
     text-decoration: underline;
 }
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-    
-}
-  
-
-
-
-
